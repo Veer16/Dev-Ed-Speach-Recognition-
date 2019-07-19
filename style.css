@@ -12,9 +12,15 @@ body {
 .talk {
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
 }
 
 img {
